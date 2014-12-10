@@ -1,0 +1,84 @@
+.performance {
+	width: 100%;
+	height: 577px;
+	background: rgb(178,249,154);
+	position: relative;
+	.mask {
+		position: fixed;
+		width: 100%;
+		bottom: 0px;
+		right: 0px;
+		left: 0px;
+		top: 0px;
+		opacity: 0.6;
+		z-index: 100;
+		display: none;
+		background: rgb(0, 0, 0);
+	}
+	.close-mask {
+		display: none;
+		background: url(/image/close.png);
+		position: fixed;
+		right: 0px;
+		top: 0px;
+		width: 48px;
+		height: 48px;
+		z-index: 1000;
+	}
+	&-video-bee {
+		width: 170px;
+		height: 170px;
+		overflow: hidden;
+		position: absolute;
+		left: 16%;
+		margin-left: -85px;
+		top: 258px;
+		background: url(/image/video-tip.jpg);
+	}
+	&-video-process {
+		width: 170px;
+		height: 170px;
+		overflow: hidden;
+		position: absolute;
+		right: 16%;
+		margin-right: -85px;
+		top: 258px;
+		background: url(/image/video-tip.jpg);
+	}
+	.video-square {
+		width: 28px;
+		height: 28px;
+		position: absolute;
+		left: 50%;
+		margin-left: -14px;
+		top: 50%;
+		margin-top: -14px;
+		background: url(/image/play.png);
+	}
+	#video-bee, #video-process {
+		display: none;
+		position: absolute;
+		left: 50%;
+		margin-left: -300px;
+		top: 50%;
+		margin-top: -240px;
+		width: 600px;
+		height: 377px;
+		z-index: 1000;
+	}
+	&-sliding-enviroment {
+		position: absolute;
+		left: 50%;
+		top: 100px;
+		margin-left: -245px;
+		img {
+			position: absolute;
+		}
+	}
+	&-up {
+		position: absolute;
+		left: 50%;
+		margin-left: -26px;
+		bottom: 0px;
+	}
+}

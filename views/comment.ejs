@@ -1,0 +1,39 @@
+<div class="comment-left">
+	<img src="/image/left.png" alt="">
+</div>
+
+<div class="comment-right">
+	<img src="/image/right.png" alt="">
+</div>
+
+<div class="comment-up">
+	<img src="/image/up.png" alt="">
+</div>
+<div class="comment-main">
+	<div class="comment-decoration">
+		<p class="comment-left-line"></p>
+		<p class="comment-right-line"></p>
+	</div>
+	<div class="comment-content">
+		<% for(var i=0; i<comments.length; i++) {%>
+			<% var randomNum = Math.round(Math.random() * 7) % 7 + 1 %>
+			<% var circleTop = 85 * (i + 1) %>
+			<div class="comment-left-circle" style="top: <%= circleTop %>px">
+				<img src="/image/circle-<%= randomNum%>.png" alt="">
+			</div>
+			<div class="comment-right-area comment-right-style-<%= (randomNum + 1) % 7 + 1%>"
+						style="top: <%= circleTop %>px">
+				<h2 class="comment-detail">
+					<span><%= comments[i].customer.nick_name %></span>
+					<span><%= comments[i].customer.address %></span>
+				</h2>
+				<p class="comment-content">
+					<%= comments[i].content %>
+				</p>
+	   		</div>
+	   		<div class="comment-right-circle" style="top: <%= circleTop %>px">
+				<img src="/image/circle-<%= (randomNum + 2) % 7 + 1 %>.png" alt="">
+			</div>
+		<% } %>
+	</div>
+</div>

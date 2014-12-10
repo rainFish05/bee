@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html>
+<head>
+	<title>自然蜜 NATURE BEE</title>
+	<link rel='stylesheet' href='/reset.css' />
+	<link rel='stylesheet' href='/index.css' />
+	<link rel='stylesheet' href='/header.css' />
+	<link rel='stylesheet' href='/performance.css' />
+	<link rel='stylesheet' href='/comment.css' />
+	<link rel='stylesheet' href='/contact.css' />
+	<link rel='stylesheet' href='/footer.css' />
+	<link rel='stylesheet' href='/error.css' />
+</head>
+<body>
+	<header class="header">
+		<% include header %>
+	</header>
+	<section class="section">
+		<article class="performance">
+			<% include performance %>
+		</article>
+		<article class="comment">
+			<% include comment %>
+		</article>
+		<article class="contact">
+			<% include contact %>
+		</article>
+	</section>
+	<footer class="footer">
+		<% include footer %>
+	</footer>
+	<script data-main="/javascripts/index" src="/javascripts/lib/require.js"></script>
+</body>
+</html>

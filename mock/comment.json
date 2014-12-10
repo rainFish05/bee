@@ -1,0 +1,45 @@
+{
+	totalNum: "10",
+	"comments": [
+		{
+			"customer": {
+				"id": 001,
+				"nick_name": "carol",
+				"address": "上海市金冠渠"
+			},
+			"content": "东西很好，绝对的正宗"	
+		},
+		{
+			"customer": {
+				"id": 001,
+				"nick_name": "carol",
+				"address": "上海市金冠渠"
+			},
+			"content": "东西很好，绝对的正宗"	
+		},
+		{
+			"customer": {
+				"id": 001,
+				"nick_name": "carol",
+				"address": "上海市金冠渠"
+			},
+			"content": "东西很好，绝对的正宗"	
+		},
+		{
+			"customer": {
+				"id": 001,
+				"nick_name": "carol",
+				"address": "上海市金冠渠"
+			},
+			"content": "东西很好，绝对的正宗"	
+		},
+		{
+			"customer": {
+				"id": 001,
+				"nick_name": "carol",
+				"address": "上海市金冠渠"
+			},
+			"content": "东西很好，绝对的正宗"	
+		}
+	]
+}
